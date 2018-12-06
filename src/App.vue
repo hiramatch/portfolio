@@ -1,15 +1,18 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/works">Works</router-link> |
-      <router-link to="/contact">Contact</router-link>
-    </div>
+    <navbar></navbar>
     <router-view/>
   </div>
 </template>
+<script>
+  import Navbar from '@/components/Navbar.vue'
 
+  export default {
+    components: {
+      Navbar
+    }
+  }
+</script>
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -17,6 +20,5 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
