@@ -1,5 +1,5 @@
 <template>
   <div class="pageNotFound">
-    <h1>Page not Found</h1>
+    <h1 class="title">ページが見つかりません</h1>
   </div>
 </template>
