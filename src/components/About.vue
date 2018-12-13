@@ -1,34 +1,51 @@
 <template>
-<div class="about">
-  <h1 class="title">自己紹介</h1>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <img src="../assets/workstation-336369_640.jpg" width="400px" alt="">
-      </div>
-      <div class="col-sm">
-        <dl>
-        <dt>名前</dt>
-        <dd>平間 秀一  (ひらま しゅういち)</dd>
-        <dt>住まい</dt>
-        <dd>東京</dd>
-        <dt>SNS</dt>
-        <dd>
-          <ul>
-           <li>email: <a href="mailto:hiramatch@gmai.com">hiramatch@gmail.com</a></li>
-           <li>Twitter: <a href="https://twitter.com/hiramatch">@hiramatch</a></li>
-           <li>GitHub: <a href="https://github.com/hiramatch">hiramatch</a></li>
-           <li>blog: <a href="https://hiramatch.hatenablog.com/">hiramatch's blog</a></li>
-          </ul>
-        </dd>
-        </dl>
+  <div class="about">
+    <h1 class="title">自己紹介</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="../assets/about.jpg" width="300px" alt="">
         </div>
-      <div class="col-sm">
+        <div class="col-sm-6">
+          <dl>
+            <dt>名前</dt>
+            <dd>{{ name }}</dd>
+            <dt>住まい</dt>
+            <dd>{{ address }}</dd>
+            <dt>スキル</dt>
+            <dd>{{ skill }}</dd>
+            <dt>SNS</dt>
+            <dd>
+              <ul>
+                <li v-for='item in sns'>
+                  {{ item.term}}: <a :href=item.href>{{ item.description }}</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </template>
+<script>
+export default {
+  data () {
+    return {
+      name: 'Name',
+      address: 'Address',
+      skill: 'Skill',
+      sns:  [
+             {term: 'email', href: 'mailto:xxx@gmail.com', description: 'xxx'},
+             {term: 'twitter', href: 'https://www.twitter.com/yyy', description: 'yyy'},
+             {term: 'GitHub', href: 'https://www.github.com/zzz', description: 'zzz'}
+            ]
+    }
+  }
+}
+</script>
+
+
 <style>
 dd {
   margin-left: 20px;

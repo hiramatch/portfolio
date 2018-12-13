@@ -20,8 +20,13 @@
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
-h1.title {
+.title {
   text-align: center;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+article {
+  margin-bottom: 20px;
 }
 </style>
