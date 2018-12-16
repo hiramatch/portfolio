@@ -1,0 +1,23 @@
+{
+  "about": {
+    "name": "平間 秀一",
+    "address": "東京",
+    "skills": [
+      "Ruby on Rails",
+      "フロントエンド(javaScript/jQuery/Vue.js/Bootstrap)",
+      "Dockerによる仮想環境上での開発",
+      "HTML/CSSの必要最低限の知識",
+      "git, gitHubのチーム開発",
+      "MySQLの基本的操作",
+      "JavaのWebアプリケーション"
+    ],
+    "sns" : [
+      {"term": "email", "href": "mailto:hiramatch@gmail.com", "description": "hiramatch@gmail.com"},
+      {"term": "twitter", "href": "https://www.twitter.com/hiramatch", "description": "Shuichi hirama"},
+      {"term": "GitHub", "href": "https:www.github.com/hiramatch", "description": "hiramatch"}
+    ]
+  },
+  "works": [
+    
+  ]
+}
