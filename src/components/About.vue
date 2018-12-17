@@ -9,13 +9,13 @@
         <div class="col-sm-6">
           <dl>
             <dt>名前</dt>
-            <dd>{{ d.about.name }}</dd>
+            <dd>{{ about.name }}</dd>
             <dt>住まい</dt>
-            <dd>{{ d.about.address }}</dd>
+            <dd>{{ about.address }}</dd>
             <dt>スキル</dt>
             <dd>
               <ul>
-                <li v-for='skill in d.about.skills'>
+                <li v-for='skill in about.skills'>
                   {{ skill }}
                 </li>
               </ul>
@@ -23,7 +23,7 @@
             <dt>SNS</dt>
             <dd>
               <ul>
-                <li v-for='item in d.about.sns'>
+                <li v-for='item in about.sns'>
                   {{ item.term}}: <a :href=item.href>{{ item.description }}</a>
                 </li>
               </ul>
@@ -39,7 +39,7 @@ import Data from '../assets/data/data.json'
 export default {
   data () {
     return {
-      d: Data
+      about: Data.about
     }
   }
 }

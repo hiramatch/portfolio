@@ -6,7 +6,7 @@
       "Ruby on Rails",
       "フロントエンド(javaScript/jQuery/Vue.js/Bootstrap)",
       "Dockerによる仮想環境上での開発",
-      "HTML/CSSの必要最低限の知識",
+      "HTML/CSSの基本的知識",
       "git, gitHubのチーム開発",
       "MySQLの基本的操作",
       "JavaのWebアプリケーション"
@@ -18,6 +18,7 @@
     ]
   },
   "works": [
-    
+    { "title": "ポートフォリオサイト", "description": "これまで作成したポートフォリオを紹介するサイト", "date": "2018年",
+       "url": "https://myportfolioproject-a67bf.firebaseapp.com/"}
   ]
 }
