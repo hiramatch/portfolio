@@ -18,7 +18,12 @@
     ]
   },
   "works": [
-    { "title": "ポートフォリオサイト", "description": "これまで作成したポートフォリオを紹介するサイト", "date": "2018年",
-       "url": "https://myportfolioproject-a67bf.firebaseapp.com/"}
+    { "title": "ポートフォリオサイト",
+      "img_src" : "portfolio_01.png",
+       "description": "制作したポートフォリオを紹介するサイト",
+       "skill": "Vue.js, Bootstrap",
+        "date": "2018年",
+        "url": "https://myportfolioproject-a67bf.firebaseapp.com/"
+    }
   ]
 }
