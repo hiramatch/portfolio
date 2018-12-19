@@ -2,18 +2,24 @@
   "about": {
     "name": "平間 秀一",
     "address": "東京",
+    "hobbies": [
+      "ラジオNIKKEI第2(RN2)で音楽をかけっぱなしにする",
+      "以前読んだことのあるマンガを再び読み返す"
+    ],
     "skills": [
       "Ruby on Rails",
-      "フロントエンド(javaScript/jQuery/Vue.js/Bootstrap)",
-      "Dockerによる仮想環境上での開発",
+      "フロントエンド(JavaScript/jQuery/Vue.js/Bootstrap)",
+      "仮想環境上での開発(Docker/Docker Compose/Kubernetes)",
+      "自動テスト(RSpec/Selenium/Circle CI/Capybara/Cucumber)",
       "HTML/CSSの基本的知識",
-      "git, gitHubのチーム開発",
-      "MySQLの基本的操作",
-      "JavaのWebアプリケーション"
+      "gitのコマンド, gitHubのチーム開発",
+      "DB(MySQL/PostgreSQL/Oracle)",
+      "JavaのWebアプリケーション開発"
     ],
     "sns" : [
-      {"term": "email", "href": "mailto:hiramatch@gmail.com", "description": "hiramatch@gmail.com"},
-      {"term": "twitter", "href": "https://www.twitter.com/hiramatch", "description": "Shuichi hirama"},
+      {"term": "Email", "href": "mailto:hiramatch@gmail.com", "description": "hiramatch@gmail.com"},
+      {"term": "Blog", "href": "http://hiramatch.hatenablog.com/", "description": "hiramatch's blog"},
+      {"term": "Twitter", "href": "https://www.twitter.com/hiramatch", "description": "Shuichi hirama"},
       {"term": "GitHub", "href": "https:www.github.com/hiramatch", "description": "hiramatch"}
     ]
   },

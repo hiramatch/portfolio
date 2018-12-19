@@ -12,6 +12,14 @@
             <dd>{{ about.name }}</dd>
             <dt>住まい</dt>
             <dd>{{ about.address }}</dd>
+            <dt>最近ハマっていること</dt>
+            <dd>
+              <ul>
+                <li v-for='hobby in about.hobbies'>
+                  {{ hobby }}
+                </li>
+              </ul>
+            </dd>
             <dt>スキル</dt>
             <dd>
               <ul>
