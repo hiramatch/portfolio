@@ -10,6 +10,8 @@
           <dl>
             <dt>名前</dt>
             <dd>{{ about.name }}</dd>
+            <dt>職業</dt>
+            <dd>{{ about.occupation }}</dd>
             <dt>住まい</dt>
             <dd>{{ about.address }}</dd>
             <dt>最近ハマっていること</dt>
