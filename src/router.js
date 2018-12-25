@@ -4,9 +4,13 @@ import Home from './components/Home.vue'
 import About from './components/About.vue'
 import Works from './components/Works.vue'
 import Contact from './components/Contact.vue'
+import Users from './components/demo/Users.vue'
+import {ServerTable, ClientTable, Event} from 'vue-tables-2';
 import PageNotFound from './components/PageNotFound.vue'
 
 Vue.use(Router)
+Vue.use(ServerTable)
+Vue.use(ClientTable)
 
 export default new Router({
   mode: 'history',
@@ -30,6 +34,11 @@ export default new Router({
       path: '/contact',
       name: 'contact',
       component: Contact
+    },
+    {
+      path: '/works/1',
+      name: 'users',
+      component: Users
     },
     {
       path: '*',
