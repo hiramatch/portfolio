@@ -18,7 +18,7 @@
       <div class="carousel-caption d-none d-md-block">
         <h1>About</h1>
         <h2>自己紹介です</h2>
-　       <a href="/about" class="btn btn-primary btn-md active" role="button" aria-pressed="true">更に詳しく</a>
+        <router-link class="btn btn-primary btn-md active" to="/about">更に詳しく</router-link>
       </div>
     </div>
     <div class="carousel-item">
@@ -26,7 +26,7 @@
       <div class="carousel-caption d-none d-md-block">
         <h1>Works</h1>
         <h2>作品です</h2>
-　       <a href="/works" class="btn btn-primary btn-md active" role="button" aria-pressed="true">更に詳しく</a>
+        <router-link class="btn btn-primary btn-md active" to="/works">更に詳しく</router-link>
       </div>
     </div>
   </div>
