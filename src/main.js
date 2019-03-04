@@ -6,6 +6,9 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+import VueHolder from 'vue-holderjs';
+Vue.use(VueHolder);
+
 new Vue({
   router,
   render: h => h(App)
