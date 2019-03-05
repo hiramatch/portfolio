@@ -8,14 +8,14 @@
   </ol>
     <div class="carousel-item active">
       <img src="https://picsum.photos/1900/500/?image=60" alt="">
-      <div class="carousel-caption d-none d-md-block">
-        <h1>Welcome to Shuichi Hirama's portfolio</h1>
+      <div class="carousel-caption">
+        <h1>Welcome to Hiramatch's portfolio</h1>
         <h2>This site is made with Vue.js</h2>
       </div>
     </div>
     <div class="carousel-item">
       <img src="https://picsum.photos/1900/500/?image=42" alt="">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption">
         <h1>About</h1>
         <h2>自己紹介です</h2>
         <router-link class="btn btn-primary btn-md active" to="/about">更に詳しく</router-link>
@@ -23,7 +23,7 @@
     </div>
     <div class="carousel-item">
       <img src="https://picsum.photos/1900/500/?image=91" alt="">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption">
         <h1>Works</h1>
         <h2>作品です</h2>
         <router-link class="btn btn-primary btn-md active" to="/works">更に詳しく</router-link>
