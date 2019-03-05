@@ -7,14 +7,12 @@
     <li data-target="#carouselControls" data-slide-to="2"></li>
   </ol>
     <div class="carousel-item active">
-      <img src="https://picsum.photos/1900/500/?image=60" alt="">
       <div class="carousel-caption">
-        <h1>Welcome to Hiramatch's portfolio</h1>
+        <h1>Welcome to hiramatch's portfolio</h1>
         <h2>This site is made with Vue.js</h2>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://picsum.photos/1900/500/?image=42" alt="">
       <div class="carousel-caption">
         <h1>About</h1>
         <h2>自己紹介です</h2>
@@ -22,7 +20,6 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://picsum.photos/1900/500/?image=91" alt="">
       <div class="carousel-caption">
         <h1>Works</h1>
         <h2>作品です</h2>
@@ -50,6 +47,10 @@
     color: #ffffff;
     font-size: 30px;
     font-weight: 500;
+  }
+  .carousel-item {
+    background-color: #08547c5e;
+    height: 400px;
   }
 </style>
 
