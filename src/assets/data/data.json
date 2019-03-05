@@ -1,6 +1,6 @@
 {
   "about": {
-    "name": "平間 秀一",
+    "name": "hiramatch",
     "occupation": "ITエンジニア",
     "address": "東京",
     "hobbies": [
@@ -19,7 +19,8 @@
     ],
     "sns" : [
       {"term": "Email", "href": "mailto:hiramatch@gmail.com", "description": "hiramatch@gmail.com"},
-      {"term": "Blog", "href": "http://hiramatch.hatenablog.com/", "description": "hiramatch's blog"},
+      {"term": "Blog", "href": "http://hiramatch.com/", "description": "Learning by Teaching  (2019〜)"},
+      {"term": "Blog", "href": "http://hiramatch.hatenablog.com/", "description": "hiramatch's blog (〜2018)"},
       {"term": "Twitter", "href": "https://www.twitter.com/hiramatch", "description": "Shuichi hirama"},
       {"term": "GitHub", "href": "https://www.github.com/hiramatch", "description": "hiramatch"}
     ]
