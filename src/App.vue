@@ -21,6 +21,8 @@
   color: #2c3e50;
 }
 .title {
+  color: black;
+  font-size: 25px;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
